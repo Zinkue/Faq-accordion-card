@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav>
-        <a href="no-js-accordion.html" id="change-version">Version without JS</a>
+        <a href="index.html" id="change-version">Version with JS</a>
     </nav>
     <main>
         <div id="card">
@@ -20,49 +20,55 @@
             <h1 id="faq">FAQ</h1>
             <ul id="questions">
                 <li class="question-answer">
-                    <div class="question" onclick="getAnswer(event)" id="1">
+                    <input type="checkbox" name="question-1" id="question-1" class="question-checkbox">
+                    <label class="question" for="question-1">
                         <span class="question-text">How many team members can I invite?</span> 
                         <div class="question-arrow"></div>
-                    </div>
-                    <p class="answer">
+                    </label>
+                    <p class="answer-no-js">
                         You can invite up to 2 additional users on the Free plan. There is no limit on 
                         team members for the Premium plan.
                     </p>
                 </li>
                 <li class="question-answer">
-                    <div class="question" onclick="getAnswer(event)" id="2">
+                    <input type="checkbox" name="question-2" id="question-2" class="question-checkbox">
+                    <label class="question" for="question-2">
                         <span class="question-text">What is the maximum file upload size?</span> 
                         <div class="question-arrow"></div>
-                    </div>
-                    <p class="answer">
+                    </label>
+                    <p class="answer-no-js">
                         No more than 2GB. All files in your account must fit your allotted storage space.
                     </p>
                 </li>
+
                 <li class="question-answer">
-                    <div class="question" onclick="getAnswer(event)" id="3">
+                    <input type="checkbox" name="question-3" id="question-3" class="question-checkbox">
+                    <label class="question" for="question-3">
                         <span class="question-text">How do I reset my password?</span> 
                         <div class="question-arrow"></div>
-                    </div>
-                    <p class="answer">
+                    </label>
+                    <p class="answer-no-js">
                         Click “Forgot password” from the login page or “Change password” from your profile page.
                         A reset link will be emailed to you.
                     </p>
                 </li>
                 <li class="question-answer">
-                    <div class="question" onclick="getAnswer(event)" id="4">
+                    <input type="checkbox" name="question-4" id="question-4" class="question-checkbox">
+                    <label class="question" for="question-4">
                         <span class="question-text">Can I cancel my subscription?</span> 
                         <div class="question-arrow"></div>
-                    </div>
-                    <p class="answer">
+                    </label>
+                    <p class="answer-no-js">
                         Yes! Send us a message and we’ll process your request no questions asked.
                     </p>
                 </li>
                 <li class="question-answer">
-                    <div class="question" onclick="getAnswer(event)" id="5">
+                    <input type="checkbox" name="question-5" id="question-5" class="question-checkbox">
+                    <label class="question" for="question-5">
                         <span class="question-text">Do you provide additional support?</span> 
                         <div class="question-arrow"></div>
-                    </div>
-                    <p class="answer">
+                    </label>
+                    <p class="answer-no-js">
                         Chat and email support is available 24/7. Phone lines are open during normal business hours.
                     </p>
                 </li>
@@ -73,6 +79,5 @@
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
         Coded by <a href="https://github.com/Zinkue">Zinkue</a>.
     </footer>
-    <script src="index.js"></script>
 </body>
 </html>
